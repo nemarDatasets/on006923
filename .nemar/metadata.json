@@ -1,0 +1,39 @@
+{
+  "version": "2.0",
+  "dataset_id": "on006923",
+  "source": "openneuro",
+  "source_id": "ds006923",
+  "title": "Dataset of Electroencephalograms of Juvenile Offenders",
+  "authors": {
+    "Aura Polo": {},
+    "Elmer León": {},
+    "Mariana Pino-Melgarejo": {},
+    "Julie Viloria-Porto": {}
+  },
+  "license": "CC0",
+  "dataset_type": "derivative",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds006923.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.0.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "SISTEMA GENERAL DE REGALÍAS (SGR)"
+    },
+    {
+      "funder_name": "MINISTERIO DE CIENCIA TECNOLOGÍA E INNOVACIÓN (MINCIENCIAS) BPIN 2020000100006"
+    }
+  ],
+  "acknowledgements": "The authors thank Ronald Ruiz for his help during the data collection process and Sergio Miranda for his dedication to data processing and cleaning"
+}
