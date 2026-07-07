@@ -1,0 +1,45 @@
+data:
+  attributes:
+    types:
+      resourceTypeGeneral: Dataset
+    contributors:
+      - name: Aura Polo
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 1
+      - name: Elmer León-Becerra
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 2
+      - name: Mariana Pino
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 3
+      - name: Julie Viloria-Porto
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 4
+    creators:
+      - name: Aura Polo
+        nameType: Personal
+      - name: Elmer León-Becerra
+        nameType: Personal
+      - name: Mariana Pino
+        nameType: Personal
+      - name: Julie Viloria-Porto
+        nameType: Personal
+    descriptions:
+      - description: N/A
+        descriptionType: Abstract

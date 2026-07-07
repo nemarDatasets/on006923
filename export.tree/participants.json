@@ -1,0 +1,155 @@
+{
+	"Description": "Demographic and group assignment data",
+	"participant_id": {
+		"Description": "Unique participant identifier"
+	},
+	"Subject type": {
+		"Description": "Type of participant",
+		"Levels": {
+			"Offender": "Juvenile offender",
+			"No Offender": "Juvenile no offender"
+		}
+	},
+	"Age": {
+		"Description": "Participant age (years)",
+		"Units": "Years"
+	},
+	"Gender": {
+		"Description": "Sex of the participant",
+		"Levels": {
+			"Male": "Male",
+			"Female": "Female"
+		}
+	},
+	"Level of education": {
+		"Description": "Educational level achieved by the participant",
+		"Levels": {
+			"Basic primary": "Basic primary",
+			"Basic secondary": "Basic secondary",
+			"High school": "High school",
+			"Middle school": "Middle school",
+			"Technical": "Technical",
+			"University": "University"
+		}
+	},
+	"Years of education": {
+		"Description": "Total number of years completed in the formal education system",
+		"Units": "Years"
+	},
+	"School dropout": {
+		"Description": "Indicate whether the participant dropped out of school before completing the corresponding educational level",
+		"Levels": {
+			"No": "No",
+			"Yes": "Yes"
+		}
+	},
+	"Gang member": {
+		"Description": "Indicate whether the participant has belonged or belongs to a gang or organized criminal group",
+		"Levels": {
+			"No": "No",
+			"Yes": "Yes"
+		}
+	},
+	"Domestic violence": {
+		"Description": "Record whether the participant has experienced or committed violence in the family environment",
+		"Levels": {
+			"No": "No",
+			"Yes": "Yes"
+		}
+	},
+	"Displaced by violence": {
+		"Description": "Indicate whether the participant or their family were forced to move due to internal armed conflict, violence or threats",
+		"Levels": {
+			"No": "No",
+			"Yes": "Yes"
+		}
+	},
+	"Socioeconomic stratum": {
+		"Description": "Socioeconomic classification of the participant's household (example, in Colombia residential properties are classified on a scale of 1 to 6)",
+		"Units": "Units"
+	},
+	"Type of crime 1": {
+		"Description": "Category 1 of crimes committed by the participant",
+		"Levels": {
+			"Abduction": "Abduction",
+			"Homicide": "Homicide",
+			"Illegal": "Illegal",
+			"Illegal_Carrying_of_Weapons/Narcotics": "Illegal carrying of weapons and narcotics",
+			"Illegal_Possession_of_Weapons/Narcotics": "Illegal possession of weapons and narcotics",
+			"Kidnapping": "Kidnapping",
+			"None": "None of the categories",
+			"Sexual_Abuse": "Sexual abuse",
+			"Theft": "Theft",
+			"Violence": "Violence"
+		}
+	},
+	"Type of crime 2": {
+		"Description": "Category 2 of crimes committed by the participant",
+		"Levels": {
+			"Carrying_of_Weapons/Narcotics_Violence": "Carrying of weapons and narcotics violence",
+			"Homicide": "Homicide",
+			"Illegal_Carrying_of_Weapons/Narcotics": "Illegal carrying of weapons and narcotics",
+			"Illegal_Possession_of_Weapons/Narcotics": "Illegal possession of weapons and narcotics",
+			"Larceny": "Larceny",
+			"None": "None of the categories",
+			"Sexual_Abuse": "Sexual abuse",
+			"Theft": "Theft",
+			"Violence": "Violence"
+		}
+	},
+	"Type of crime 3": {
+		"Description": "Category 3 of crimes committed by the participant",
+		"Levels": {
+			"Illegal_Possession_of_Weapons/Narcotics": "Illegal possession of weapons and narcotics",
+			"None": "None of the categories",
+			"Theft": "Theft"
+		}
+	},
+	"Type of crime 4": {
+		"Description": "Category 4 of crimes committed by the participant",
+		"Levels": {
+			"None": "None of the categories",
+			"Sexual_Abuse": "Sexual abuse",
+			"Theft": "Theft"
+		}
+	},
+	"Recidivist": {
+		"Description": "Indicates whether the participant has reoffended after serving a previous sentence or sanction",
+		"Levels": {
+			"No": "No",
+			"Yes": "Yes"
+		}
+	},
+	"Consumer of psychoactive substances": {
+		"Description": "Indicate whether the participant uses drugs or psychoactive substances",
+		"Levels": {
+			"No": "No",
+			"Yes": "Yes"
+		}
+	},
+	"Alcohol": {
+		"Description": "Specify if the participant consumes alcoholic beverages",
+		"Levels": {
+			"No": "No",
+			"Yes": "Yes"
+		}
+	},
+	"Marijuana": {
+		"Description": "Specify if the participant consumes marijuana",
+		"Levels": {
+			"No": "No",
+			"Yes": "Yes"
+		}
+	},
+	"Cocaine": {
+		"Description": "Specify if the participant uses cocaine",
+		"Levels": {
+			"No": "No",
+			"Yes": "Yes"
+		}
+	},
+	"Age of first use": {
+		"Description": "Age at which the participant first consumed any psychoactive substance or alcohol",
+		"Units": "Years"
+	}
+}
