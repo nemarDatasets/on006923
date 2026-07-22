@@ -1,82 +1,39 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "dataset_id": "on006923",
+  "source": "openneuro",
+  "source_id": "ds006923",
   "title": "Dataset of Electroencephalograms of Juvenile Offenders",
-  "license": "CC0",
-  "dataset_type": "derivative",
   "authors": {
     "Aura Polo": {},
-    "Elmer León": {},
-    "Mariana Pino-Melgarejo": {},
+    "Elmer León-Becerra": {},
+    "Mariana Pino": {},
     "Julie Viloria-Porto": {}
   },
+  "license": "CC0",
+  "dataset_type": "derivative",
   "related_identifiers": [
     {
-      "identifier": "10.18112/openneuro.ds006923.v1.0.0",
+      "identifier": "10.18112/openneuro.ds006923.v1.0.1",
       "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on006923",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/on006923",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "IsIdenticalTo"
     }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.0.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
   ],
   "funding_references": [
     {
       "funder_name": "SISTEMA GENERAL DE REGALÍAS (SGR)"
     },
     {
-      "funder_name": "MINISTERIO DE CIENCIA TECNOLOGÍA E INNOVACIÓN (MINCIENCIAS)",
-      "award_number": "BPIN 2020000100006"
+      "funder_name": "MINISTERIO DE CIENCIA TECNOLOGÍA E INNOVACIÓN (MINCIENCIAS) BPIN 2020000100006"
     }
   ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "8.7 GB (2330 files)"
-  ],
-  "formats": [
-    ".json",
-    ".mat",
-    ".md",
-    ".set",
-    ".tsv",
-    ".xlsx",
-    ".yml"
-  ],
-  "description": "This dataset comprises resting-state electroencephalography recordings from 140 juvenile participants (74 offenders and 66 non-offender controls) collected using a Biosemi ActiveTwo 128-channel system. The dataset includes preprocessed EEG data, extracted spectral features across delta, theta, alpha, and beta frequency bands, and demographic information. It was developed to support research on neurocognitive patterns associated with juvenile delinquency and behavioral dysfunction.",
-  "methods_description": "EEG data were acquired using a Biosemi ActiveTwo system with 128 channels at 2048 Hz sampling rate, subsequently downsampled to 128 Hz. Resting-state recordings consisted of 4-minute alternating eyes-closed/open sequences. Preprocessing included visual inspection, rereferencing to average reference, bandpass filtering (1-40 Hz), artifact removal via bad channel rejection and ICA with ICLabel, and downsampling. Spectral features were extracted using Welch's method across four frequency bands (delta, theta, alpha, beta).",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "resting-state"
-    },
-    {
-      "term": "juvenile delinquency"
-    },
-    {
-      "term": "neurocognition"
-    },
-    {
-      "term": "spectral analysis"
-    },
-    {
-      "term": "artifact removal"
-    },
-    {
-      "term": "feature extraction"
-    }
-  ],
-  "source_hash": "356fb047f229d0d609e423c4dec9ceafe85aefc6164d8f9794af9e1e525d06d3"
+  "acknowledgements": "The authors thank Ronald Ruiz for his help during the data collection process and Sergio Miranda for his dedication to data processing and cleaning"
 }
