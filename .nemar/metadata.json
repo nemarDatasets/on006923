@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Dataset of Electroencephalograms of Juvenile Offenders",
+  "description": "This dataset contains resting-state EEG recordings from 140 juvenile participants in Colombia, including 74 juvenile offenders and 66 non-offender controls, collected to study neurocognitive patterns associated with delinquency. Recordings were acquired using a 128-channel Biosemi ActiveTwo system during alternating eyes-closed/eyes-open resting-state paradigms. The dataset includes both preprocessed EEG data and extracted spectral power features (mean power, RMS, standard deviation, min/max power, skewness, kurtosis) across delta, theta, alpha, and beta frequency bands for each channel and epoch.",
+  "methods_description": "EEG was recorded using a Biosemi ActiveTwo system with 128 channels plus EOG/ECG at 2048 Hz, online bandpass filtered 0.1-100 Hz. The resting-state paradigm consisted of 12 minutes with 4 minutes alternating eyes closed/open (COCO) and 8 minutes eyes closed (excluded). Preprocessing in EEGLAB/MATLAB included visual inspection, downsampling to 128 Hz, average rereferencing, FIR bandpass filtering (1-40 Hz), bad channel rejection, ASR, and ICA with ICLabel for artifact removal. Spectral features were extracted using Welch's method with 50% overlap and a Hamming window across delta, theta, alpha, and beta bands.",
   "license": "CC0",
   "dataset_type": "derivative",
   "authors": {
@@ -12,6 +14,28 @@
     "Elmer León": {},
     "Mariana Pino-Melgarejo": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Juvenile Delinquency",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D007604"
+    },
+    {
+      "term": "resting-state EEG"
+    },
+    {
+      "term": "neurocognition"
+    },
+    {
+      "term": "power spectral density"
+    },
+    {
+      "term": "adolescent offenders"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006923.v1.0.1",
@@ -44,10 +68,10 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "8.7 GB (2330 files)"
   ],
@@ -59,49 +83,6 @@
     ".tsv",
     ".xlsx",
     ".yml"
-  ],
-  "description": "This dataset comprises resting-state electroencephalography (EEG) recordings from 140 juvenile participants (74 offenders and 66 non-offender controls) acquired using a Biosemi ActiveTwo 128-channel system. The data were collected as part of a study investigating neurocognitive patterns associated with delinquency in adolescents from the Atlántico department of Colombia. The dataset includes preprocessed EEG data, extracted spectral features across multiple frequency bands, and comprehensive demographic information. This is version 1.0.0 of the dataset.",
-  "methods_description": "EEG data were acquired using a Biosemi ActiveTwo system with 128 channels sampled at 2048 Hz and subsequently downsampled to 128 Hz. Recordings consisted of 12-minute resting-state sessions with alternating eyes-closed and eyes-open conditions. Preprocessing included visual inspection, rereferencing to average reference, bandpass filtering (1-40 Hz), artifact removal via bad channel rejection and Artifact Subspace Reconstruction (ASR), and independent component analysis with ICLabel. Spectral features were extracted using Welch's method across delta (1-4 Hz), theta (4-8 Hz), alpha (8-13 Hz), and beta (13-30 Hz) frequency bands.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "resting-state"
-    },
-    {
-      "term": "juvenile delinquency"
-    },
-    {
-      "term": "neurocognition"
-    },
-    {
-      "term": "spectral analysis"
-    },
-    {
-      "term": "adolescents"
-    },
-    {
-      "term": "preprocessing"
-    },
-    {
-      "term": "BIDS"
-    },
-    {
-      "term": "Biosemi"
-    },
-    {
-      "term": "Colombia"
-    },
-    {
-      "term": "Atlántico"
-    },
-    {
-      "term": "juvenile justice"
-    },
-    {
-      "term": "neurocognitive dysfunction"
-    }
   ],
   "source_hash": "356fb047f229d0d609e423c4dec9ceafe85aefc6164d8f9794af9e1e525d06d3"
 }
