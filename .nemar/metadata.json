@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Dataset of Electroencephalograms of Juvenile Offenders",
-  "description": "This dataset contains resting-state EEG recordings from 140 juvenile participants in Colombia, including 74 juvenile offenders and 66 non-offender controls, collected to study neurocognitive patterns associated with delinquency. Recordings were acquired using a 128-channel Biosemi ActiveTwo system during alternating eyes-closed/eyes-open resting-state paradigms. The dataset includes both preprocessed EEG data and extracted spectral power features (mean power, RMS, standard deviation, min/max power, skewness, kurtosis) across delta, theta, alpha, and beta frequency bands for each channel and epoch.",
-  "methods_description": "EEG was recorded using a Biosemi ActiveTwo system with 128 channels plus EOG/ECG at 2048 Hz, online bandpass filtered 0.1-100 Hz. The resting-state paradigm consisted of 12 minutes with 4 minutes alternating eyes closed/open (COCO) and 8 minutes eyes closed (excluded). Preprocessing in EEGLAB/MATLAB included visual inspection, downsampling to 128 Hz, average rereferencing, FIR bandpass filtering (1-40 Hz), bad channel rejection, ASR, and ICA with ICLabel for artifact removal. Spectral features were extracted using Welch's method with 50% overlap and a Hamming window across delta, theta, alpha, and beta bands.",
+  "description": "Resting-state EEG recordings from 140 Colombian young people: 74 juvenile offenders and 66 non-offender controls. Data were acquired with a 128-channel Biosemi ActiveTwo system. The dataset provides epoched and preprocessed EEG, along with spectral band-power features (delta, theta, alpha, beta) for eyes-open and eyes-closed epochs. It is intended to support the study of neurocognition in juvenile delinquency.",
+  "methods_description": "Resting-state EEG was recorded with a 128-channel Biosemi ActiveTwo system at 2048 Hz, with additional EOG and ECG channels. The paradigm alternated eyes closed and open. Preprocessing in EEGLAB/MATLAB included downsampling to 128 Hz, average re-referencing, 1-40 Hz FIR bandpass filtering, bad channel rejection, ASR, and ICA with ICLabel. Features were computed from Welch PSD in four frequency bands.",
   "license": "CC0",
   "dataset_type": "derivative",
   "authors": {
@@ -19,12 +19,10 @@
       "term": "EEG"
     },
     {
-      "term": "Juvenile Delinquency",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D007604"
+      "term": "resting state"
     },
     {
-      "term": "resting-state EEG"
+      "term": "juvenile delinquency"
     },
     {
       "term": "neurocognition"
@@ -33,7 +31,14 @@
       "term": "power spectral density"
     },
     {
-      "term": "adolescent offenders"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Juvenile Delinquency",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D007600"
     }
   ],
   "related_identifiers": [
@@ -63,7 +68,10 @@
       "funder_name": "SISTEMA GENERAL DE REGALÍAS (SGR)"
     },
     {
-      "funder_name": "MINISTERIO DE CIENCIA TECNOLOGÍA E INNOVACIÓN (MINCIENCIAS)",
+      "funder_name": "Sistema General de Regalías (SGR)"
+    },
+    {
+      "funder_name": "Ministerio de Ciencia, Tecnología e Innovación (MINCIENCIAS)",
       "award_number": "BPIN 2020000100006"
     }
   ],
@@ -73,7 +81,7 @@
     "eeg"
   ],
   "sizes": [
-    "8.7 GB (2330 files)"
+    "8.13 GB (2330 files)"
   ],
   "formats": [
     ".json",
